@@ -1,0 +1,10 @@
+{
+  "snapshot_date": "2025-09-30",
+  "modeling_snapshot_rows": 2400,
+  "target_column_excluded_from_features": true,
+  "split_column_excluded_from_features": true,
+  "post_snapshot_orders_in_raw_file": 1872,
+  "feature_source": "rfm_modeling_snapshot.csv",
+  "feature_source_leakage_note": "Data dictionary states the snapshot table contains only features available on or before 2025-09-30.",
+  "feature_count": 25
+}

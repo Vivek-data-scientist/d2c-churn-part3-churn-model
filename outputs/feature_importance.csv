@@ -1,0 +1,45 @@
+feature,coefficient,abs_coefficient,direction
+recency_days,1.7567999681789972,1.7567999681789972,increases churn risk
+monetary_180d,-0.4366565179854724,0.4366565179854724,decreases churn risk
+preferred_category=Fragrance,-0.39428619333718157,0.39428619333718157,decreases churn risk
+acquisition_channel=Organic,-0.39184686080250053,0.39184686080250053,decreases churn risk
+return_rate_180d,0.34731135782820166,0.34731135782820166,increases churn risk
+ticket_count_90d,-0.31380719291779424,0.31380719291779424,decreases churn risk
+loyalty_tier=Platinum,-0.30962624959900953,0.30962624959900953,decreases churn risk
+negative_ticket_rate_90d,0.30632680458827316,0.30632680458827316,increases churn risk
+avg_discount_pct_180d,0.2983141241775503,0.2983141241775503,increases churn risk
+last_visit_days_ago,0.27798377040745387,0.27798377040745387,increases churn risk
+preferred_category=Baby Care,0.27721025125850907,0.27721025125850907,increases churn risk
+sessions_30d,-0.20357894384822892,0.20357894384822892,decreases churn risk
+preferred_category=Skin Care,0.18910271231350337,0.18910271231350337,increases churn risk
+frequency_180d,-0.17644993541123494,0.17644993541123494,decreases churn risk
+campaign_clicks_30d,-0.1759924118888131,0.1759924118888131,decreases churn risk
+acquisition_channel=Google Search,0.16080001038404648,0.16080001038404648,increases churn risk
+category_diversity_180d,0.1384260994785083,0.1384260994785083,increases churn risk
+loyalty_tier=Silver,0.13749606647946788,0.13749606647946788,increases churn risk
+preferred_category=Hair Care,-0.13580369977886075,0.13580369977886075,decreases churn risk
+days_since_signup,-0.1345944929807429,0.1345944929807429,decreases churn risk
+marketing_consent=Yes,-0.13125505850810146,0.13125505850810146,decreases churn risk
+loyalty_tier=Missing,0.12947504333466603,0.12947504333466603,increases churn risk
+avg_resolution_hours_90d,0.11671587567535942,0.11671587567535942,increases churn risk
+abandoned_carts_30d,-0.11055249649710432,0.11055249649710432,decreases churn risk
+preferred_category=Wellness,0.11030327333983327,0.11030327333983327,increases churn risk
+marketing_consent=No,0.10371842135600655,0.10371842135600655,increases churn risk
+acquisition_channel=Marketplace,0.09935673411667102,0.09935673411667102,increases churn risk
+product_views_30d,-0.09285928827054761,0.09285928827054761,decreases churn risk
+email_opens_30d,0.08900035719603996,0.08900035719603996,increases churn risk
+preferred_category=Makeup,-0.07406298094789726,0.07406298094789726,decreases churn risk
+acquisition_channel=Instagram,0.06606430259775631,0.06606430259775631,increases churn risk
+avg_rating_180d,-0.05576679438426257,0.05576679438426257,decreases churn risk
+age_group=35-44,0.05421664550241438,0.05421664550241438,increases churn risk
+cart_adds_30d,0.044652670069677165,0.044652670069677165,increases churn risk
+age_group=25-34,-0.04434305538574972,0.04434305538574972,decreases churn risk
+wishlist_adds_30d,0.033001477583598435,0.033001477583598435,increases churn risk
+city_tier=Tier 3,-0.03227201279140973,0.03227201279140973,decreases churn risk
+age_group=45+,-0.020950039956887545,0.020950039956887545,decreases churn risk
+acquisition_channel=Influencer,0.019312541573825705,0.019312541573825705,increases churn risk
+acquisition_channel=Referral,0.018776634978106204,0.018776634978106204,increases churn risk
+age_group=18-24,-0.01646018731187233,0.01646018731187233,decreases churn risk
+loyalty_tier=Gold,0.015118502632781564,0.015118502632781564,increases churn risk
+city_tier=Tier 2,0.008661283089367724,0.008661283089367724,increases churn risk
+city_tier=Tier 1,-0.003925907450052916,0.003925907450052916,decreases churn risk

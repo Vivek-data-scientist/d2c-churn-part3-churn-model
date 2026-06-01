@@ -1,0 +1,109 @@
+{
+  "leakage_prevention": {
+    "snapshot_date": "2025-09-30",
+    "modeling_snapshot_rows": 2400,
+    "target_column_excluded_from_features": true,
+    "split_column_excluded_from_features": true,
+    "post_snapshot_orders_in_raw_file": 1872,
+    "feature_source": "rfm_modeling_snapshot.csv",
+    "feature_source_leakage_note": "Data dictionary states the snapshot table contains only features available on or before 2025-09-30.",
+    "feature_count": 25
+  },
+  "baseline_model": {
+    "name": "train_prevalence_baseline",
+    "description": "Predicts the train-set churn prevalence for every customer.",
+    "train_churn_prevalence": 0.4699074074074074,
+    "threshold": 0.5,
+    "metrics_by_split": {
+      "train": {
+        "accuracy": 0.5300925925925926,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "roc_auc": 0.5,
+        "pr_auc": 0.4699074074074074,
+        "log_loss": 0.6913349573195646,
+        "tp": 0,
+        "fp": 0,
+        "tn": 916,
+        "fn": 812
+      },
+      "validation": {
+        "accuracy": 0.5625,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "roc_auc": 0.5,
+        "pr_auc": 0.4375,
+        "log_loss": 0.6874293454140685,
+        "tp": 0,
+        "fp": 0,
+        "tn": 189,
+        "fn": 147
+      },
+      "test": {
+        "accuracy": 0.5,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "roc_auc": 0.5,
+        "pr_auc": 0.5,
+        "log_loss": 0.6949615969460968,
+        "tp": 0,
+        "fp": 0,
+        "tn": 168,
+        "fn": 168
+      }
+    }
+  },
+  "final_model": {
+    "name": "regularized_logistic_classifier_numpy",
+    "description": "Standardized numeric features plus one-hot categorical features trained with logistic loss.",
+    "selected_threshold": 0.24000000000000002,
+    "threshold_selection": {
+      "metric": "business score on validation: 0.55*recall + 0.35*precision + 0.10*f1 - 0.08*outreach_rate",
+      "validation_outreach_rate": 0.625
+    },
+    "metrics_by_split": {
+      "train": {
+        "accuracy": 0.7528935185185185,
+        "precision": 0.6711111111111111,
+        "recall": 0.9298029556650246,
+        "f1": 0.7795560144553433,
+        "roc_auc": 0.8865112827242024,
+        "pr_auc": 0.8584299042695089,
+        "log_loss": 0.43808946745597566,
+        "tp": 755,
+        "fp": 370,
+        "tn": 546,
+        "fn": 57
+      },
+      "validation": {
+        "accuracy": 0.7470238095238095,
+        "precision": 0.6476190476190476,
+        "recall": 0.9251700680272109,
+        "f1": 0.7619047619047619,
+        "roc_auc": 0.8823741136666307,
+        "pr_auc": 0.8674995075162587,
+        "log_loss": 0.4238207397809329,
+        "tp": 136,
+        "fp": 74,
+        "tn": 115,
+        "fn": 11
+      },
+      "test": {
+        "accuracy": 0.7380952380952381,
+        "precision": 0.6652892561983471,
+        "recall": 0.9583333333333334,
+        "f1": 0.7853658536585366,
+        "roc_auc": 0.8846017573696145,
+        "pr_auc": 0.8779050527273673,
+        "log_loss": 0.43530774243235143,
+        "tp": 161,
+        "fp": 81,
+        "tn": 87,
+        "fn": 7
+      }
+    }
+  }
+}
